@@ -1,0 +1,39 @@
+@import '~swiper/css';
+@import '~swiper/css/pagination';
+@import '~swiper/css/autoplay';
+
+$bg:#685dd8;
+$color: #fff;
+
+.slides-container{
+    background: $bg;
+    border-radius: 5px;
+    overflow: hidden;
+    .swiper-slide{
+        display: flex;
+        justify-content: space-between;
+        align-items: center;
+        padding:20px;
+        color: $color;
+        .statistics{
+            display: flex;
+            gap:15px;
+            align-items: center;
+            margin:15px 0;
+            .boxed{
+                background-color: darken($bg,5);
+                padding: 4px 8px;
+                border-radius: 4px;
+                min-width: 50px;
+                text-align: center;
+            }
+        }
+
+        img.illustration{
+            width:170px;
+        }
+        h5,h6,p,span{
+            color:$color;
+        }
+    }
+}

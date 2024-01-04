@@ -1,0 +1,7 @@
+.v-enter-active, .v-leave-active{
+    transition: all 0.2s ease-out;
+}
+.v-enter-from, .v-leave-to{
+    opacity:0;
+    scale:0.98;
+}
